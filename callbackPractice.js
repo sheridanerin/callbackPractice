@@ -134,6 +134,12 @@ function uniq(arr, cb) {
   cb(newArr);
 }
 
+
+arr.forEach(function(element) {
+
+
+});
+
 uniq(names, function(uniqArr){
   console.log('The new names array with all the duplicate items removed is ', uniqArr);
 });
